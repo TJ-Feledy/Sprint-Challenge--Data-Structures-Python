@@ -45,7 +45,11 @@ class RingBuffer:
         # Note:  This is the only [] allowed
         list_buffer_contents = []
 
-        # TODO: Your code here
+        current = self.storage.head
+
+        while current is not None:
+            list_buffer_contents.append(current.value)
+            current = current.next
 
         return list_buffer_contents
 
