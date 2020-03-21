@@ -1,4 +1,7 @@
 import time
+import sys
+sys.path.append('C:/Users/teej3/Desktop/LambdaSchoolWork/CS/data-structures/Data-Structures/binary_search_tree')
+from binary_search_tree import BinarySearchTree 
 
 start_time = time.time()
 
@@ -13,6 +16,7 @@ f.close()
 duplicates = []  # Return the list of duplicates in this data structure
 
 # Replace the nested for loops below with your improvements
+# original runtime -  O(n^2)
 for name_1 in names_1:
     for name_2 in names_2:
         if name_1 == name_2:
