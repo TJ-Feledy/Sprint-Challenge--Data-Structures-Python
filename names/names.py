@@ -1,7 +1,5 @@
 import time
-import sys
-sys.path.append('C:/Users/teej3/Desktop/LambdaSchoolWork/CS/data-structures/Data-Structures/binary_search_tree')
-from binary_search_tree import BinarySearchTree 
+from b_s_t import BinarySearchTree 
 
 start_time = time.time()
 
